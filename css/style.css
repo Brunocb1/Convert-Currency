@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../assets/pngtree-blockchain-s-new-virtual-currency-exchange-a-3d-rendered-stack-of-picture-image_3649192.jpg);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+main {
+    width: 375px;
+    background: rgba(235, 222, 154, 0.473);
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+    margin-top: -25px;
+
+}
+
+.logo-pig-money {
+    width: 250px;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin: 5px auto;
+}
+
+
+label {
+    color: #020202;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+    
+
+
+select {
+    background: #fde88aec;
+    border: 1px solid #bea411;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #555555;
+    cursor: pointer;
+}
+
+
+input {
+    background: hsla(51, 93%, 30%, 0.226);
+    border: 1px solid #000000;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3b3b3b;
+}
+
+button {
+    background: #d1be16c9;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    color: #202020;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.arrow {
+    margin: 15px 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color: #000000;
+    font-size: 14px;
+}
+
+.currency-value .currency-value-to-convert {
+    color: #000000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+footer{
+ position: relative;
+ float: right;
+ 
+}
+
+.logo-social-media{
+    width: 30px;
+    height: 30px;
+}
+
+.social-media{
+    margin: 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+}

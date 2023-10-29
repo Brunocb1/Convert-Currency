@@ -1,0 +1,89 @@
+@media screen and (max-height: 800px) {
+    main {
+        width: 300px;
+        height: 610px;
+        margin-top: -50px;
+        padding: 24px 14px 13px;
+    }
+
+    .logo-pig-money {
+        width: 150px;
+        height: 200px;
+        margin-top: -10px;
+    }
+
+    label {
+        font-size: 12px;
+
+    }
+
+    select {
+        margin-top: -30px;
+        height: 28px;
+        margin-bottom: 10px;
+
+    }
+
+    footer {
+        margin-top: -30px;
+
+    }
+
+    .logo-social-media {
+        width: 20px;
+        height: 22px;
+
+    }
+}
+
+@media screen and (max-width:700px) and (orientation: landscape) {
+    main {
+        width: 550px;
+        height: 400px;
+        margin-top: 20px;
+        padding: auto;
+
+    }
+
+    .logo-pig-money {
+        display: none;
+    }
+
+    select {
+        width: 250px;
+        display: block;
+        margin-bottom: 45px;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    input {
+        width: 250px;
+        display: block;
+    }
+
+    button {
+        width: 250px;
+        display: block;
+    }
+
+    section {
+        width: 150px;
+        float: right;
+        margin-top: -325px;
+        width: 200px;
+        height: 350px;
+    }
+
+    footer {
+        margin-top: -20px;
+
+    }
+
+    .logo-social-media {
+        width: 20px;
+        height: 25px;
+    }
+
+}
